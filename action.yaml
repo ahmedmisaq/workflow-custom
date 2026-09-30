@@ -4,9 +4,8 @@ description: Greet someone
 inputs:
   who-to-greet:
     description: Who to Greet
-    required: : true
-    default: true
-
+    required: true
+    default: Hello
 
 outputs:
   time:
@@ -15,5 +14,3 @@ outputs:
 runs:
   using: node20
   main: distin/index/js
-
-# Update here
