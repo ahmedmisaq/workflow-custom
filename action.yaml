@@ -1,0 +1,16 @@
+name: Ahmed Custom Action 
+description: Greet someone 
+
+inputs:
+  who-to-greet:
+    description: Who to Greet
+    required: true
+    default: Hello
+
+outputs:
+  time:
+    description: time greeted
+
+runs:
+  using: node20
+  main: distin/index/js
